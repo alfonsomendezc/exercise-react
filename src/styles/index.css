@@ -1,12 +1,42 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp9073812.jpg');
+    background-size: cover;
+}
 
-/* 
+.navbar {
+    border-left: solid 100px;
+    border-right: solid 100px;
+}
+.navbar-collapse {
+    justify-content: right;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
 
-*/
+.jumbotron {
+    background: rgb(236, 236, 236);
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 90%;
+}
+
+.card {
+    border-radius: 10px;
+    width: 21rem;
+    margin: auto;
+    margin-top: 30px;
+}
+.card img {
+    border-radius: 10px;
+}
