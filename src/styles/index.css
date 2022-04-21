@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://wallpapercave.com/wp/wp9073812.jpg');
+    background-image: url('https://i.imgur.com/16vSBdq.png');
     background-size: cover;
 }
 
@@ -15,10 +15,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .jumbotron {
@@ -32,10 +29,10 @@ footer {
 }
 
 .card {
+    float: left;
     border-radius: 10px;
-    width: 21rem;
-    margin: auto;
-    margin-top: 30px;
+    width: 20rem;
+    margin: 30px 40px 0px 100px;
 }
 .card img {
     border-radius: 10px;
